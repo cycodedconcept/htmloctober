@@ -4,7 +4,12 @@
     font-family: "DM Sans", sans-serif;
 }
 
-header {
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+header, .hero {
     display: flex;
     justify-content: space-between;
     padding: 0 60px;
@@ -24,7 +29,7 @@ nav ul li a {
     color: #1E0E62;
 }
 
-.btn-signin, .btn-signup {
+.btn-signin, .btn-signup, .g-btn, .l-btn {
     outline: none;
     border: 0;
     box-shadow: none;
@@ -50,4 +55,63 @@ nav ul li a {
 
 .li-img {
     line-height: 1.7;
+}
+
+.hero-left h1 {
+    color: #1E0E62;
+}
+
+.hero-left p {
+    color: #15143966;
+}
+
+.g-btn {
+    background: #25DAC5;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.hero {
+    margin: 25px 0;
+}
+.hero-right {
+    text-align: right;
+}
+
+.hero-right img {
+    width: 60%;
+}
+.content {
+    width: 100%;
+    min-height: 300px;
+    background: url(./images/bimg.png) no-repeat center right /cover #2F1893;
+    display: flex;
+    justify-content: space-between;
+    /* padding: 40px; */
+}
+
+.content-left h4 {
+    color: #fff;
+}
+
+.content-left p {
+    color: rgb(187, 185, 185);
+    font-size: 13px;
+}
+
+.content-right {
+    background: #fff;
+    height: 150px;
+    padding: 25px;
+    margin: 60px 120px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.content-left {
+    margin: 40px 120px;
+}
+
+.content-right p {
+    color: #2F1893;
 }
